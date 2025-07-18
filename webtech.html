@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Tech Companies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+
+        header, footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .company-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .company-card {
+            background-color: white;
+            border-radius: 8px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .company-card:hover {
+            transform: scale(1.05);
+        }
+
+        .company-card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #007BFF;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            font-size: 14px;
+            padding: 15px 0;
+        }
+
+        @media (max-width: 768px) {
+            .company-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .company-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Top 10 Tech Companies in 2025</h1>
+</header>
+
+<section class="company-grid">
+    <div class="company-card">
+        <a href="https://www.apple.com">Apple Inc</a>
+        <img src="images/apple.jpg" alt="Apple Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.samsung.com">Samsung Electronics</a>
+        <img src="images/samsung.jpg" alt="Samsung Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.microsoft.com">Microsoft Corporation</a>
+        <img src="images/microsoft.jpg" alt="Microsoft Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.amazon.com">Amazon.com Inc</a>
+        <img src="images/amazon.jpg" alt="Amazon Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://abc.xyz">Alphabet Inc. (Google)</a>
+        <img src="images/alphabet.jpg" alt="Alphabet Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.meta.com">Meta Platforms (Facebook)</a>
+        <img src="images/meta.jpg" alt="Meta Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.tesla.com">Tesla Inc.</a>
+        <img src="images/tesla.jpg" alt="Tesla Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.ibm.com">IBM</a>
+        <img src="images/ibm.jpg" alt="IBM Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.oracle.com">Oracle Corporation</a>
+        <img src="images/oracle.jpg" alt="Oracle Logo">
+    </div>
+
+    <div class="company-card">
+        <a href="https://www.intel.com">Intel Corporation</a>
+        <img src="images/intel.jpg" alt="Intel Logo">
+    </div>
+</section>
+
+<!-- Company Details Table -->
+<section>
+    <h2 style="text-align:center; margin-top:40px;">Company Details</h2>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Company Name</th>
+            <th>Headquarters</th>
+            <th>CEO</th>
+        </tr>
+        <tr><td>1</td><td>Apple Inc.</td><td>California, USA</td><td>Tim Cook</td></tr>
+        <tr><td>2</td><td>Microsoft Corporation</td><td>Washington, USA</td><td>Satya Nadella</td></tr>
+        <tr><td>3</td><td>Amazon.com Inc.</td><td>Washington, USA</td><td>Andy Jassy</td></tr>
+        <tr><td>4</td><td>Alphabet Inc. (Google)</td><td>California, USA</td><td>Sundar Pichai</td></tr>
+        <tr><td>5</td><td>Samsung Electronics</td><td>Suwon, South Korea</td><td>Han Jong-hee</td></tr>
+        <tr><td>6</td><td>Meta Platforms</td><td>California, USA</td><td>Mark Zuckerberg</td></tr>
+        <tr><td>7</td><td>Tesla, Inc.</td><td>Texas, USA</td><td>Elon Musk</td></tr>
+        <tr><td>8</td><td>IBM</td><td>New York, USA</td><td>Arvind Krishna</td></tr>
+        <tr><td>9</td><td>Oracle Corporation</td><td>Texas, USA</td><td>Safra Catz</td></tr>
+        <tr><td>10</td><td>Intel Corporation</td><td>California, USA</td><td>Pat Gelsinger</td></tr>
+    </table>
+</section>
+
+<footer>
+    &copy; 2025 Deva | All rights reserved.
+</footer>
+
+</body>
+</html>
